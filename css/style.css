@@ -1,0 +1,33 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    
+    background-image: linear-gradient(to right #fff #ccc);
+}
+#calc{
+    border: 1px solid transparent;
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    margin: 5px;
+        justify-content: center;
+    align-items: center;
+}
+#calc:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 1s ease-out;
+}
+#resultado{
+    margin: 50px;
+    color: blue;
+    text-decoration: underline;
+
+}
