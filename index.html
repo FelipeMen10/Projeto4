@@ -10,15 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Operação Matemática</h1>
-    <p><label for="numero1">Numero 1</label>
-        <input type="text" id="num1">
-    </p>
-    <p><label for="numero2">Numero 2</label>
-        <input type="text" id="num2"></p>
-    <input type="submit" value="Calcular" id="calc" onclick="calc()">
-    <p id="resultado"></p>
-    <hr>
-    <script src="script/script.js"></script>
+    <nav>
+        <h1>Operação Matemática</h1>
+        <p><label for="numero1">Numero 1</label>
+            <input type="text" id="num1">
+        </p>
+        <p><label for="numero2">Numero 2</label>
+            <input type="text" id="num2"></p>
+        <input type="submit" value="Calcular" id="calc" onclick="calc()">
+        <p id="resultado"></p>
+        <hr>
+        <h1>CLASSIFICAÇÃO DE TORNEIO</h1>
+        <p>Primeiro Colocado: <span class="time"></span></p>
+        <p>Segundo Colocado: <span class="time"></span></p>
+        <p>Terceiro Colocado: <span class="time"></span></p>
+        <p>Novo Colocado: <input type="text" id="novo"></p>
+        <p>Posição: <input type="number" id="posicao" min="1" max="3"></p>
+        <button onclick="inserir()">Adicionar</button>
+        <script src="script/script.js"></script>
+    </nav>
 </body>
 </html>
